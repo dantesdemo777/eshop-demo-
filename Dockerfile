@@ -17,7 +17,7 @@ RUN dnf install -y java-17-openjdk.x86_64
 
 WORKDIR /opt/tomcat/webapps
 
-RUN curl -O -L https://github.com/DantesEmpyrean/eshop-demo-.git
+RUN curl -O -L https://github.com/dantesdemo777/eshop-demo-.git 
 
 EXPOSE 8080
 
